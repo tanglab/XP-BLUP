@@ -6,7 +6,7 @@ This script implements XP-BLUP, which improves complex traits prediction in mino
 	--train=./example_data/trainN4k --test=./example_data/testN2k --snplist=./example_data/metaExtract.txt 
 	[--outdir=./output] [--outprefix=out]
 
- (The parameters in [ ] are optinal if the corresponding command is in system path.)
+ The parameters in [ ] are optinal if the corresponding command is in system path. Or
  
 	./xpblup.sh --train=./example_data/trainN4k --test=./example_data/testN2k --snplist=./example_data/metaExtract.txt
 
