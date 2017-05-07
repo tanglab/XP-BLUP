@@ -2,9 +2,9 @@
 This script implements XP-BLUP, which improves complex traits prediction in minority populations by combining trans-ethnic and ethnic-specific information. It requires plink (https://www.cog-genomics.org/plink2 v1.90 or later) and gcta (http://cnsgenomics.com/software/gcta/, v1.25.3 or later). Please contact huatang@stanford.edu or hyfang@stanford.edu for questions or bug report.
 
 # Usage 
-	./xpblup.sh [--help] [--plink=/usr/local/bin/plink] [--gcta=/usr/local/bin/gcta64] [--pheno=./phenos/traindataN4k.pheno] 
-	--train=./example_data/trainN4k --test=./example_data/testN2k --snplist=./example_data/metaExtract.txt 
-	[--outdir=./output] [--outprefix=out]
+	./xpblup.sh [--help] [--plink=/usr/local/bin/plink] [--gcta=/usr/local/bin/gcta64] 
+	[--pheno=./phenos/traindataN4k.pheno] --train=./example_data/trainN4k --test=./example_data/testN2k
+	 --snplist=./example_data/metaExtract.txt [--outdir=./output] [--outprefix=out]
 
  The parameters in [ ] are optinal if the corresponding command is in system path. Or
  
